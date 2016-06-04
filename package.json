@@ -1,0 +1,13 @@
+{
+  "name": "web-scrape-cat-photos",
+  "version": "1.0.1",
+  "main": "server/server.js",
+  "license": "",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  },
+  "scripts": {
+    "start": "node getCats.js"
+  }
+}
